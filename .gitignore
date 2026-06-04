@@ -1,0 +1,64 @@
+# ======================
+# AI assistant context (local only)
+# ======================
+CLAUDE.md
+
+# ======================
+# OS & Editor artifacts
+# ======================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# Screenshots / local test images
+# ======================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.tiff
+
+# Exception: keep any intentional favicon/icon files if added later
+# !favicon.ico
+# !favicon.png
+# !assets/**
+
+# ======================
+# Editor & IDE
+# ======================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# ======================
+# Node / npm (if ever used for tooling)
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ======================
+# Logs & temp files
+# ======================
+*.log
+*.tmp
+*.temp
+
+# ======================
+# Environment / secrets
+# ======================
+.env
+.env.local
+.env.*
